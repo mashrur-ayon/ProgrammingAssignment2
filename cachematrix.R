@@ -37,3 +37,10 @@ cacheSolve <- function(x, ...) {
   x$setInverse(k)
   k
 }
+
+
+##I am using this segment to check if my script is working or not. 
+source("cachematrix.R")
+
+mashmatrix <- makeCacheMatrix(matrix(1:4, nrow=2, ncol=2))
+mashmatrix$get()
